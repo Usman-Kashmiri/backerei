@@ -34,6 +34,19 @@ body {
   overflow-x: hidden;
 }
 
+.banner-top {
+  background-image: url("../images/Grasmotiv.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+
+.ribin-svg {
+    margin-top: -7.5rem;
+}
+
 .main-content {
   margin-top: 7rem;
 }
