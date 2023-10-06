@@ -58,3 +58,9 @@ body {
 .text-blue {
   color: #292d79;
 }
+
+
+.weat-svg {
+  transform: translateY(-360px);
+  left: 25px;
+}
