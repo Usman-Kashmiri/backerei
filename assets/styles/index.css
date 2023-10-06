@@ -24,8 +24,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Junicode-ExtraBold";
+  src: url("../styles/fonts/Junicode-Bold.ttf.woff") format("woff"),
+    url("../styles/fonts/Junicode-Bold.ttf.svg#Junicode-Bold") format("svg"),
+    url("../styles/fonts/Junicode-BoldCondensed.ttf.eot"),
+    url("../styles/fonts/Junicode-BoldCondensed.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: bold;
+}
+
 .font-junicode {
   font-family: "Junicode-Bold";
+}
+
+.font-junicode-bold {
+  font-family: "Junicode-BoldExtra";
 }
 
 .logo img {
@@ -52,7 +66,7 @@ body {
 }
 
 .ribin-svg {
-    margin-top: -7.5rem;
+  margin-top: -7.5rem;
 }
 
 .main-content {
@@ -67,10 +81,22 @@ body {
   color: #292d79;
 }
 
+.banner-top.border-top {
+  border-top: 5px solid #a07e54 !important;
+}
 
 .weat-svg {
   transform: translateY(-360px);
   left: 25px;
+}
+
+.home-content strong {
+  font-size: 1.12rem;
+  font-family: "Junicode-BoldExtra";
+}
+
+.home-content p {
+  font-weight: normal !important;
 }
 
 @media screen and (max-width: 767px) {
